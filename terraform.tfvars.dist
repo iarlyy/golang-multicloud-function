@@ -1,0 +1,27 @@
+# aws
+aws_region = "eu-central-1"
+
+# gcp
+gcp_project_id = "project-id"
+gcp_region     = "europe-west3"
+
+# azure
+azure_subscription_id = "subscription-id"
+azure_region          = "Germany West Central"
+
+functions = {
+  aws = {
+    create        = true
+    function_name = "python-multicloud"
+  }
+
+  azure = {
+    create        = true
+    function_name = "pythonmulticloud"
+  }
+
+  gcp = {
+    create        = true
+    function_name = "python-multicloud"
+  }
+}
